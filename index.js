@@ -22,3 +22,15 @@ let calculator={
     multiply:()=> 1*3,
     divide: ()=> 10/5,
 };
+
+function actionApplyer(startingInteger, arrOfFns) {
+  if (!arrOfFns.length){
+    return startingInteger
+  } else {
+    let [mult,add,mod] = arrOfFns;
+    startingInteger = mult(startingInteger)
+    startingInteger = add(startingInteger)
+    startingInteger = mod(startingInteger)
+    return startingInteger
+  }
+}
