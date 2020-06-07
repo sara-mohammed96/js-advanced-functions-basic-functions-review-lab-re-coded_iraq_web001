@@ -23,11 +23,11 @@ let calculator={
     divide: ()=> 10/5,
 };
 
-function actionApplyer(startingInteger, arrOfFns) {
-  if (!arrOfFns.length){
-    return startingInteger
+function actionApplyer(startingInteger, arrayOfFunctions) {
+  if (!arrayOfFunctions.length){
+    return startingInt
   } else {
-    let [mult,add,mod] = arrOfFns;
+    let [mult,add,mod] = arrayOfFunctions;
     startingInt = mult(startingInt)
     startingInt = add(startingInt)
     startingInt = mod(startingInt)
