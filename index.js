@@ -18,15 +18,10 @@ function wrapAdjective(Flair="*") {
 
 let Calculator = {
   add:() => 1 + 3,
-  subtract: function () {
-    return 1 - 3
-  },
-  multiply: function () {
-    return 1 * 3
-  },
-  divide: function () {
-    return 10 / 5
-  }
+  subtract:  ()=> 1 - 3,
+  multiply:  () => 1 * 3,
+  divide: () => 10 / 5
+  
 }
 
 
