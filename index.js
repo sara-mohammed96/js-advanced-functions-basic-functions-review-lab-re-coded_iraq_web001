@@ -11,8 +11,8 @@ mondayWork();
 mondayWork("I willwork from home");
 
 function wrapAdjective(star="*"){
-  return (m="special")=>{
-    return `You are ${star} ${m} ${star}`;
+  return (adjective="special")=>{
+    return `You are ${star} ${adjective} ${star}`;
   }
 }
 
