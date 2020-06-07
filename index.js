@@ -23,7 +23,7 @@ let calculator={
     divide: ()=> 10/5,
 };
 
-function actionApplyer(startingInteger, arrayOfFunctions) {
+function actionApplyer(startingInt, arrayOfFunctions) {
   if (!arrayOfFunctions.length){
     return startingInt
   } else {
