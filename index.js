@@ -10,9 +10,9 @@ function mondayWork(target="go to the office"){
 mondayWork();
 mondayWork("I willwork from home");
 
-function wrapAdjective(visualFlair="*") {
+function wrapAdjective(Flair="*") {
   return function (adjective='special') {
-    return `You are ${visualFlair}${adjective}${visualFlair}!`
+    return `You are ${Flair}${adjective}${Flair}!`
   }
 }
 
