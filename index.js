@@ -5,7 +5,7 @@ function saturdayFun(activity="roller-skate"){
 saturdayFun();
 saturdayFun("bathe my dog");
 function mondayWork(target="go to the office"){
-  return `This Monday, I will${target}`;
+  return `This Monday, I will ${target}`;
 }
 mondayWork();
 mondayWork("I willwork from home");
