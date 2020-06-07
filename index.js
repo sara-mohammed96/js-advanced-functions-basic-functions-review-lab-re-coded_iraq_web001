@@ -37,9 +37,9 @@ function actionApplyer(startingInt, arrayOfFunctions) {
     return startingInt
   } else {
     let [mult,add,mod] = arrayOfFunctions;
-    startingInt = mult(startingInt)
-    startingInt = add(startingInt)
-    startingInt = mod(startingInt)
+    startingInt = mult( startingInt)
+    startingInt = add( startingInt)
+    startingInt = mod( startingInt)
     return startingInt
   }
 }
