@@ -17,9 +17,7 @@ function wrapAdjective(Flair="*") {
 }
 
 let Calculator = {
-  add: function () {
-    return 1 + 3
-  },
+  add:() => 1 + 3,
   subtract: function () {
     return 1 - 3
   },
