@@ -28,9 +28,9 @@ function actionApplyer(startingInteger, arrOfFns) {
     return startingInteger
   } else {
     let [mult,add,mod] = arrOfFns;
-    startingInteger = mult(startingInteger)
-    startingInteger = add(startingInteger)
-    startingInteger = mod(startingInteger)
-    return startingInteger
+    startingInt = mult(startingInt)
+    startingInt = add(startingInteger)
+    startingInt = mod(startingInteger)
+    return startingInt
   }
 }
