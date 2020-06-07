@@ -31,14 +31,15 @@ let Calculator = {
   }
 }
 
-function actionApplyer(startingInteger, arrOfFns) {
-  if (!arrOfFns.length){
-    return startingInteger
+
+function actionApplyer(startingInt, arrayOfFunctions) {
+  if (!arrayOfFunctions.length){
+    return startingInt
   } else {
-    let [mult,add,mod] = arrOfFns;
-    startingInteger = mult(startingInteger)
-    startingInteger = add(startingInteger)
-    startingInteger = mod(startingInteger)
-    return startingInteger
+    let [mult,add,mod] = arrayOfFunctions;
+    startingInt =mult(startingInt)
+    startingInt =add(startingInt)
+    startingInt =mod(startingInt)
+    return startingInt
   }
 }
